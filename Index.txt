@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatble" content="ie=edge" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" 
+            rel="stylesheet"
+        />
+        <title>TriLoop</title>
+        <link rel="shortcut icon" type="images/svg" href="./images/favicon.svg">
+    </head>
+    <body>
+        <header>
+           <div class="logo-container">
+               <img src="./images/favicon.svg" alt="logo" width="40" height="40">    
+               <h4 class="logo">TriLoop</h4>
+           </div> 
+           <nav>
+               <ul class="nav-links">
+                   <li><a  class="nav-link" href="Index.html" style="text-decoration: none">Home</a></li>
+                   <li><a  class="nav-link" href="Contacts.html" style="text-decoration: none">Contacts</a></li>
+                   <li><a  class="nav-link" href="About.html" style="text-decoration: none">About</a></li>
+               </ul>
+           </nav>
+           <div class="icon">
+            <div class="gmail">
+                <a href="https://www.gmail.com" style="text-decoration: none" target="blank"><img src="./images/gmail.svg" alt="gmail" width="20" height="20"></a>
+            </div> 
+            <div class="facebook"> 
+                <a href="https://www.facebook.com" style="text-decoration: none" target="blank"><img src="./images/facebook.svg" alt="facebook" width="20" height="20"></a>
+            </div>
+        </div>
+        </header>
+
+        <main>
+            <section class="presentation">
+                <div class="introduction">
+                    <div class="intro-text">
+                        <h1>3D Modelling for the Future</h1>
+                        <p>Blender is a free software tool for 3D-Modelling and more. You can visit my Gallery to see my work in Blender.</p>
+                    </div>
+                    <div class="cta">
+                    <a href="Gallery.html" style="text-decoration: none"><button class="cta-select">Gallery</button></a>
+                    <a href="https://www.youtube.com/results?search_query=blender+tutorials" style="text-decoration: none" target="blank"><button class="cta-add">Tutorials</button></a>
+                    </div>
+                </div>
+            <div class="cover">
+                <img src="./images/matebook.png" alt="matebook">
+            </div>
+            </section>
+
+            <img class="big-eclipse" src="./images/big-eclipse.svg" alt="">
+            <img class="mid-eclipse" src="./images/mid-eclipse.svg" alt="">
+            <img class="small-eclipse" src="./images/small-eclipse.svg" alt="">
+        </main>
+        <main>
+            <section class="Content">
+                <div class="body-text"> 
+                    <div class="cover2">
+                        <img src="./images/The Cyber Force - Neon City.jpg" alt="" width="300" height="500">
+                    </div>
+                    <div class="main-text">
+                        <h1>Why to prefer Blender?</h1>
+                        <p>Blender is a software that supports 3D-modelling, wallpapers, compositing, rigging, animation, VFX and Graphics etc.</p>
+                    </div>
+                </div>
+            </main> 
+            <div class="lower-text">
+                <p>You can Download Blender Software yourself and make your own world. Click below to visit their official website and download the latest version of Blender.</p>
+            </div>
+            <div class="cta2">
+                <a href="https://www.blender.org" style="text-decoration: none" target="blank"><button class="cta-select">Visit</button></a>
+            </div>  
+        <footer>
+            <nav>
+                <ul class="nav-links">
+                    <p>You can view my work in Blender in my Gallery. For more information contact me on G-mail or Facebook contacts</p>
+                </ul>
+            </nav>
+        </footer>       
+            </section>
+    </body>
+</html>

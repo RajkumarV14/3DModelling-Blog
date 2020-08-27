@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatble" content="ie=edge" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" 
+            rel="stylesheet"
+        />
+        <title>TriLoop</title>
+        <link rel="shortcut icon" type="images/svg" href="./images/favicon.svg">
+    </head>
+    <body>
+        <header>
+           <div class="logo-container">
+               <img src="./images/favicon.svg" alt="logo" width="40" height="40">    
+               <h4 class="logo">TriLoop</h4>
+           </div> 
+           <nav>
+               <ul class="nav-links">
+                   <li><a  class="nav-link" href="Index.html" style="text-decoration: none">Home</a></li>
+                   <li><a  class="nav-link" href="Contacts.html" style="text-decoration: none">Contacts</a></li>
+                   <li><a  class="nav-link" href="About.html" style="text-decoration: none">About</a></li>
+               </ul>
+           </nav>
+           <div class="icon">
+            <div class="gmail">
+                <a href="https://www.gmail.com" style="text-decoration: none" target="blank"><img src="./images/gmail.svg" alt="gmail" width="20" height="20"></a>
+            </div> 
+            <div class="facebook"> 
+                <a href="https://www.facebook.com" style="text-decoration: none" target="blank"><img src="./images/facebook.svg" alt="facebook" width="20" height="20"></a>
+            </div>
+        </div>
+        </header>
+        <main>
+            <section class="presentation">
+                <div class="introduction">
+                    <div class="intro-text">
+                        <h1>About me ...</h1>
+                        <p>I am V.Rajkumar. I am 20 years old and i like doing stuff like abstract wallpapers, 2D and 3D images, animations etc. I'm working on my skills to develop other than these fields. You can see my work in my Gallery.</p>
+                    </div>
+                    <div class="cta">
+                    <a href="Gallery.html" style="text-decoration: none"><button class="cta-select">Gallery</button></a>
+                    <a href="https://www.youtube.com/results?search_query=blender+tutorials" style="text-decoration: none"><button class="cta-add">Tutorials</button></a>
+                    </div>
+                </div>
+            <div class="cover">
+                <img src="./images/Aboutimage.png" alt="">
+            </div>
+            </section>
+            <div class="lower-text">
+                <p>Thankyou for taking your time and visiting my website. If you like my work, feel free to contact me.</p>
+            </div>
+            <img class="big-eclipse" src="./images/big-eclipse.svg" alt="">
+            <img class="mid-eclipse" src="./images/mid-eclipse.svg" alt="">
+            <img class="small-eclipse" src="./images/small-eclipse.svg" alt="">
+        </main>
+        <footer>
+            <nav>
+                <ul class="nav-links">
+                    <p>You can view my work in Blender in my Gallery. For more information contact me on G-mail or Facebook contacts</p>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>  

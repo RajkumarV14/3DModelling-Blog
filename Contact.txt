@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatble" content="ie=edge" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" 
+            rel="stylesheet"
+        />
+        <title>TriLoop</title>
+        <link rel="shortcut icon" type="images/svg" href="./images/favicon.svg">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="./images/favicon.svg" alt="logo" width="40" height="40">    
+                <h4 class="logo">TriLoop</h4>
+            </div> 
+            <nav>
+                <ul class="nav-links">
+                    <li><a  class="nav-link" href="Index.html" style="text-decoration: none">Home</a></li>
+                    <li><a  class="nav-link" href="Contacts.html" style="text-decoration: none">Contacts</a></li>
+                    <li><a  class="nav-link" href="About.html" style="text-decoration: none">About</a></li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <div class="gmail">
+                    <a href="https://www.gmail.com" style="text-decoration: none" target="blank"><img src="./images/gmail.svg" alt="gmail" width="20" height="20"></a>
+                </div> 
+                <div class="facebook"> 
+                    <a href="https://www.facebook.com" style="text-decoration: none" target="blank"><img src="./images/facebook.svg" alt="facebook" width="20" height="20"></a>
+                </div>
+            </div>
+            </header>
+            <div class="container">
+                <div class="contact-form">
+                    <h1>Contact me</h1>
+                    <div class="txtb">
+                        <label for="Full Name">Full Name</label>
+                        <input type="text" name="" value="" placeholder="Enter Your Name" required>
+                    </div>
+            
+                    <div class="txtb">
+                        <label for="Email">Email</label>
+                        <input type="email" name="" value="" placeholder="Enter Your Email Address" required>
+                    </div>
+            
+                    <div class="txtb">
+                        <label for="Message">Message</label>
+                        <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="cta-add">Send Message</button>
+                </div>
+            </div>
+            <footer>
+                <nav>
+                    <ul class="nav-links">
+                        <p>You can view my work in Blender in my Gallery. For more information contact me on G-mail or Facebook contacts</p>
+                    </ul>
+                </nav>
+            </footer>
+    </body>
+</html>
